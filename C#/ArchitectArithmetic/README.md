@@ -11,3 +11,15 @@ In this project, you’ll use methods to build a program that calculates the mat
 …can be (approximately) broken into circles and rectangles:
 
 ![alt text](https://s3.amazonaws.com/codecademy-content/courses/learn-c-sharp/methods/pantheon-exploded.svg)
+
+Ancient city in Mexico: Teotihuacan:
+
+ ![alt text](https://s3.amazonaws.com/codecademy-content/courses/learn-c-sharp/methods/teotihuacan-complete.svg)
+
+ Taj Mahal in Agra, India:
+ 
+ ![alt text](https://s3.amazonaws.com/codecademy-content/courses/learn-c-sharp/methods/tajmahal-complete.svg)
+
+Al-Masjid al-haram (Great Mosque) in Mecca, Saudi Arabia:
+
+ ![alt text](https://s3.amazonaws.com/codecademy-content/courses/learn-c-sharp/methods/greatmosque-complete.svg)
