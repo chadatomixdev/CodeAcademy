@@ -12,16 +12,22 @@ namespace TrueorFalse
 
             string[] questions = { "The earth is the fourth planet from the sun?", "The planet Venus has no moons?", "Jupiter is composed mostly of iron?", "The sun is a star of average size?", "A lunar eclipse occurs when the sun passes?" };
             bool[] answers = { false, true, false, true, false };
-            bool[] responses = new bool[5];
 
             if (questions.Length != answers.Length)
             {
                 Console.WriteLine("Warning questions and answers do not match up.");
             }
 
+            RunQuiz(questions, answers);
+        }
+
+        static void RunQuiz(string[] questions, bool[] answers)
+        {
+            bool[] responses = new bool[questions.Length];
+
             int askingIndex = 0;
 
-            foreach (var question in questions)
+            foreach (string question in questions)
             {
                 string input = "";
                 bool isBool;
@@ -31,6 +37,8 @@ namespace TrueorFalse
 
                 input = Console.ReadLine();
                 isBool = bool.TryParse(input, out inputBool);
+
+
 
                 while (isBool == false)
                 {
@@ -49,7 +57,7 @@ namespace TrueorFalse
             int score = 0;
 
 
-            foreach (var answer in answers)
+            foreach (bool answer in answers)
             {
                 bool response = responses[scoringIndex];
 
